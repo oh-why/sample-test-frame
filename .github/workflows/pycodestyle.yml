@@ -19,4 +19,4 @@ jobs:
         python -m pip install --upgrade pip
         pip install pycodestyle
     - name: Analysing the code with pycodestyle
-      run: pycodestyle
+      run: pycodestyle .
